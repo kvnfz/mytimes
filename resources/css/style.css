@@ -41,21 +41,7 @@ div h3{
 
 /* Body */
 
-.coulmn{
-  align-items: center;
-  position: absolute;
-  border: 1px solid grey;
-  flex-direction: column;
-  margin-top: 100px;
-  width: 100%;
-}
-
-div .header{
-  border: 2px solid black;
-}
-
 div .body{
-  border: 2px solid black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -73,12 +59,46 @@ div .body{
   color: white;
   width: 360px;
 }
+.article .image1 .overimage{
+  position: absolute;
+  top: 80px;
+  text-align: center;
+  justify-content: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+}
+
+.article .image2 .overimage{
+  position: absolute;
+  top: 80px;
+  text-align: center;
+  justify-content: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+}
+
+.medium .image1 .overimage{
+  position: absolute;
+  top: 80px;
+  text-align: center;
+  justify-content: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+}
 
 .article{
   display: inline-block;
-  border: 2px solid yellow;
   align-items: center;
-  width: 308px;
+  width: 310px;
 }
 
 .image1{
@@ -93,6 +113,14 @@ div .body{
 
 /* Coulmns */
 
+.coulmn{
+  position: absolute;
+  display: flex;
+  border: 1px solid grey;
+  margin-top: 100px;
+  width: 100%;
+}
+
 .coulmn .large{
   width: 630px;
   display: inline-block;
@@ -105,8 +133,4 @@ div .body{
 .coulmn .small{
   width:240px;
   display: inline-block;
-}
-
-div.image{
-  border: 2px solid black;
 }
