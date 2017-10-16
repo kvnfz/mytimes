@@ -47,52 +47,24 @@ div .body{
   color: black;
 }
 
-.image .overimage{
-  border: 2px solid black;
+.overimage{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
   position: absolute;
-  top: 20px;
-  left: 40px;
+  top: 80px;
+  text-align: center;
+  justify-content: center;
+}
+
+.mainimage .overimage{
+  position: absolute;
+  top: 80px;
+  left: 80px;
   text-align: left;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  width: 360px;
-}
-.article .image1 .overimage{
-  position: absolute;
-  top: 80px;
-  text-align: center;
-  justify-content: center;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  width: 300px;
-}
 
-.article .image2 .overimage{
-  position: absolute;
-  top: 80px;
-  text-align: center;
-  justify-content: center;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  width: 300px;
-}
-
-.medium .image1 .overimage{
-  position: absolute;
-  top: 80px;
-  text-align: center;
-  justify-content: center;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  width: 300px;
 }
 
 .article{
@@ -101,22 +73,24 @@ div .body{
   width: 310px;
 }
 
-.image1{
+.image{
   position: relative;
   margin-top: 20px;
 }
 
-.image2{
-  position: relative;
-  margin-top: 20px;
+.image .news{
+  background-color: #eeeeee;
+  border-bottom: 2px solid grey;
+  padding: 10px;
+  color: grey;
 }
+
 
 /* Coulmns */
 
 .coulmn{
   position: absolute;
   display: flex;
-  border: 1px solid grey;
   margin-top: 100px;
   width: 100%;
 }
@@ -124,13 +98,15 @@ div .body{
 .coulmn .large{
   width: 630px;
   display: inline-block;
-
+  margin: 50px;
 }
 .coulmn .medium{
   width:300px;
   display: inline-block;
+  margin: 50px;
 }
 .coulmn .small{
   width:240px;
   display: inline-block;
+  margin: 50px;
 }
